@@ -1,0 +1,11 @@
+.privacy {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+
+  iframe{
+    height: calc(100vh - 220px);
+    width: 100%;
+  }
+}
