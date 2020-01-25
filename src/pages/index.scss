@@ -5,3 +5,20 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+.home {
+  &__container {
+    position: fixed;
+    margin: 0 auto;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 300px;
+      height: 150px;
+    }
+  }
+}
